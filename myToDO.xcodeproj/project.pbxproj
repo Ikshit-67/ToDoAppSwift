@@ -11,6 +11,10 @@
 		B17D94C1299637E300691C2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17D94C0299637E300691C2C /* ContentView.swift */; };
 		B17D94C3299637E500691C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17D94C2299637E500691C2C /* Assets.xcassets */; };
 		B17D94C6299637E500691C2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17D94C5299637E500691C2C /* Preview Assets.xcassets */; };
+		B17D94CF2996385400691C2C /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17D94CE2996385400691C2C /* TaskView.swift */; };
+		B17D94D1299638F000691C2C /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17D94D0299638F000691C2C /* TaskRow.swift */; };
+		B17D94D329963A0000691C2C /* AddTaskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17D94D229963A0000691C2C /* AddTaskButton.swift */; };
+		B17D94D529963AD000691C2C /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17D94D429963AD000691C2C /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		B17D94C0299637E300691C2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B17D94C2299637E500691C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B17D94C5299637E500691C2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B17D94CE2996385400691C2C /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		B17D94D0299638F000691C2C /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		B17D94D229963A0000691C2C /* AddTaskButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskButton.swift; sourceTree = "<group>"; };
+		B17D94D429963AD000691C2C /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		B17D94BD299637E300691C2C /* myToDO */ = {
 			isa = PBXGroup;
 			children = (
+				B17D94CD2996382600691C2C /* Views */,
+				B17D94CC2996381F00691C2C /* Components */,
 				B17D94BE299637E300691C2C /* myToDOApp.swift */,
-				B17D94C0299637E300691C2C /* ContentView.swift */,
 				B17D94C2299637E500691C2C /* Assets.xcassets */,
 				B17D94C4299637E500691C2C /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				B17D94C5299637E500691C2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B17D94CC2996381F00691C2C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B17D94D0299638F000691C2C /* TaskRow.swift */,
+				B17D94D229963A0000691C2C /* AddTaskButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B17D94CD2996382600691C2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B17D94CE2996385400691C2C /* TaskView.swift */,
+				B17D94D429963AD000691C2C /* AddTaskView.swift */,
+				B17D94C0299637E300691C2C /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17D94CF2996385400691C2C /* TaskView.swift in Sources */,
 				B17D94C1299637E300691C2C /* ContentView.swift in Sources */,
 				B17D94BF299637E300691C2C /* myToDOApp.swift in Sources */,
+				B17D94D529963AD000691C2C /* AddTaskView.swift in Sources */,
+				B17D94D1299638F000691C2C /* TaskRow.swift in Sources */,
+				B17D94D329963A0000691C2C /* AddTaskButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

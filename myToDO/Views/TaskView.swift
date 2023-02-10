@@ -9,7 +9,14 @@ import SwiftUI
 
 struct TaskView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("My Tasks")
+                .font(.title)
+                .fontWeight(.semibold)
+            
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(hue: 0.522, saturation: 0.171, brightness: 0.858))
     }
 }
 

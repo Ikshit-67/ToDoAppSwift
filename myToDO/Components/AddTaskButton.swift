@@ -9,7 +9,17 @@ import SwiftUI
 
 struct AddTaskButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Circle()
+                .frame(width: 60)
+            
+            Text("+")
+                .foregroundColor(.white)
+                .font(.title)
+                .fontWeight(.semibold)
+                .offset(y:-1.5)
+        }
+        .frame(height: 50)
     }
 }
 
