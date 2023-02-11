@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var showTaskView: Bool = false
+    @State private var showTaskAddView: Bool = false
     
     var body: some View {
         ZStack(alignment: .bottomTrailing){
@@ -19,10 +19,10 @@ struct ContentView: View {
             AddTaskButton()
                 .padding()
                 .onTapGesture {
-                    showTaskView.toggle()
+                    showTaskAddView.toggle()
                 }
         }
-        .sheet(isPresented: $showTaskView){
+        .sheet(isPresented: $showTaskAddView){
             AddTaskView()
         }
         .background(Color(hue: 0.522, saturation: 0.171, brightness: 0.858))
